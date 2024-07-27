@@ -759,3 +759,4 @@ MIT
 
 - <https://downloads.cisecurity.org/#/>
 - <https://github.com/florianutz/ubuntu2004_cis>
+# ansible-cis-ubuntu-2204

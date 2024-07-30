@@ -150,7 +150,7 @@ cis_ubuntu2204_allow_gdm_gui: false
 cis_ubuntu2204_allow_cups: false
 
 # will disable ipv6 complete, if ipv6 is needed set to 'true'
-cis_ubuntu2204_required_ipv6: false
+cis_ubuntu2204_required_ipv6: true
 
 # will install and config AIDE, if not needed set to 'false'
 cis_ubuntu2204_install_aide: true

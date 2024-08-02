@@ -133,7 +133,7 @@ cis_ubuntu2204_set_journal_upload_url: <SET_REMOTE_URL>
 
 ```yaml
 # will disable USB storage, if USB storage is needed set to 'false'
-cis_ubuntu2204_rule_1_1_1_8: true
+cis_ubuntu2204_rule_1_1_1_8: false
 
 # will remove bluetooth service, if bluetooth is needed set to 'false'
 cis_ubuntu2204_rule_3_1_3: true
@@ -144,17 +144,17 @@ cis_ubuntu2204_allow_autofs: false
 
 # will purge gdm/gui, if gui is needed set to 'true'
 # if 'true' is set, recommended configs will perform in rules 1.7.2 - 1.7.10
-cis_ubuntu2204_allow_gdm_gui: false
+cis_ubuntu2204_allow_gdm_gui: true
 
 # will purge printer service, if printer service is need set to 'true'
-cis_ubuntu2204_allow_cups: false
+cis_ubuntu2204_allow_cups: true
 
 # will disable ipv6 complete, if ipv6 is needed set to 'true'
 cis_ubuntu2204_required_ipv6: true
 
 # will install and config AIDE, if not needed set to 'false'
-cis_ubuntu2204_install_aide: true
-cis_ubuntu2204_config_aide: true
+cis_ubuntu2204_install_aide: false
+cis_ubuntu2204_config_aide: false
 ```
 
 ### variables to check and set for own purpose

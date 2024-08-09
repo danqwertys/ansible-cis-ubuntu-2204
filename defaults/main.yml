@@ -354,7 +354,7 @@ cis_ubuntu2204_allow_gdm_gui: false
 # cups allow printer service, else remove (cis_ubuntu2204_rule_2_2_3)
 cis_ubuntu2204_allow_cups: false
 # ipv6 is required (cis_ubuntu2204_rule_3_1_1)
-cis_ubuntu2204_required_ipv6: false
+cis_ubuntu2204_required_ipv6: true
 # cis_ubuntu2204_journal_upload_url (cis_ubuntu2204_rule_6_2_1_2_1-4)
 cis_ubuntu2204_set_journal_upload: false
 # AIDE perform install/config (cis_ubuntu2204_rule_6_1_1-3)
